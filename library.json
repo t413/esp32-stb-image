@@ -1,0 +1,25 @@
+{
+    "name": "esp32-stb-image",
+    "version": "1.0.0",
+    "description": "A lightweight, ESP32-friendly package of stb_image and stb_image_write.",
+    "keywords": "image, jpeg, png, bmp, processing, esp32",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LTDev-LLC/esp32-stb-image-image.git"
+    },
+    "frameworks": [
+        "arduino",
+        "espidf"
+    ],
+    "platforms": [
+        "espressif32"
+    ],
+    "license": "Public Domain",
+    "build": {
+        "srcFilter": [
+            "+<*.h>",
+            "+<*.c>",
+            "+<*.cpp>"
+        ]
+    }
+}
