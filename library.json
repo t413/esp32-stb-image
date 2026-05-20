@@ -7,12 +7,11 @@
         "type": "git",
         "url": "https://github.com/LTDev-LLC/esp32-stb-image-image.git"
     },
-    "frameworks": [
-        "arduino",
-        "espidf"
-    ],
+    "frameworks": "*",
     "platforms": [
-        "espressif32"
+        "espressif32",
+        "espressif8266",
+        "native"
     ],
     "license": "Public Domain",
     "build": {
